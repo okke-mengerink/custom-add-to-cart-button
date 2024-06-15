@@ -12,7 +12,7 @@ This plugin overrides the text and URL of the WooCommerce Add to Cart button.
 
 ## Description
 
-The Custom Add to Cart Button plugin allows you to customize the text and URL of the WooCommerce Add to Cart button. It helps you provide a more personalized shopping experience for your customers.
+The Custom Add to Cart Button plugin allows you to customize the text and URL of the WooCommerce Add to Cart button. It helps you provide a more personalized shopping experience for your customers. Additionally, it now supports redirecting to a specified URL in a new tab without adding the product to the cart.
 
 ## Installation
 
@@ -24,6 +24,7 @@ The Custom Add to Cart Button plugin allows you to customize the text and URL of
 
 1. After activation, the Add to Cart button text will change to "Buy Now".
 2. The URL for the Add to Cart button can be customized in the plugin file by modifying the `custom_add_to_cart_redirect_url` function.
+3. Clicking on the "Buy Now" button will now directly redirect to the specified URL in a new tab without adding the product to the cart.
 
 ## Frequently Asked Questions
 
@@ -39,6 +40,8 @@ You can change the URL by modifying the `custom_add_to_cart_redirect_url` functi
 
 ### 1.0
 * Initial release.
+* Overrides the text and URL of the Add to Cart button.
+* Supports redirection to a specified URL in a new tab without adding the product to the cart.
 
 ## Upgrade Notice
 
